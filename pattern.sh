@@ -10,7 +10,7 @@ read -p "enter the  mobile no.: " phoneno
 pattern="^[A-Z][a-zA-Z]{2,}"
 pattern1="^[A-Z][a-zA-Z]{2,}"
 emailpattern="^[a-zA-z]+([._][a-z0-9]+)?@[a-z]+.[a-z]+([.][a-z]+)$"
-mobilepattern=^[0-9][1-9]" "[0-9]{10}
+mobilepattern="^[0-9][1-9]" "[0-9]{10}"
 
 if [[ $name =~ $pattern && $lastname =~ $pattern1 ]]
 then

@@ -10,7 +10,7 @@ read -p "enter the password with minimum length 8: " pass
 
 pattern="^[A-Z][a-zA-Z]{2,}"
 pattern1="^[A-Z][a-zA-Z]{2,}"
-emailpattern="^[a-zA-z]+([._][a-z0-9]+)?@[a-z]+.[a-z]+([.][a-z]+)$"
+emailpattern="^[a-c]{3}([.|-|+]*[0|1]+){0,3}@[a-z0-9]+.[a-z]+([.][a-z]+)?$"
 mobilepattern="^[0-9][1-9]" "[0-9]{10}"
 minimumpasswordlength="[\$.#@a-zA-Z0-9]{8}[a-zA-Z]*"
 passwordInUpperCase="[a-zA-Z]*[A-Z]+[a-zA-Z]*"

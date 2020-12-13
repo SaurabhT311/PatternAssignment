@@ -1,5 +1,5 @@
 #!/bin/bash -x
-
+shopt -s extglob
 echo "User Registration"
 
 read -p "Enter the First name: " name

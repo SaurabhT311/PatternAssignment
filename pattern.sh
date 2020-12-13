@@ -1,5 +1,7 @@
 #!/bin/bash -x
 
+echo "User Registration"
+
 read -p "Enter the First name: " name
 read -p "Enter the Last name: " lastname
 pattern="^[A-Z][a-zA-Z]{2,}"
